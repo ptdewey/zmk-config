@@ -131,12 +131,12 @@
 
         layer_3 {
             bindings = <
-                &none   &none    &none   &nonel &none                                                                                         &none  &none        &none     &none      &none
+                &none   &none    &none   &none &none                                                                                         &none  &none        &none     &none      &none
                 &kp TILDE  &kp EXCL    &kp AT     &kp HASH  &kp DLLR   &kp PERCNT                                                                  &kp CIRC  &kp AMPS  &kp ASTER    &kp LPAR  &kp RPAR   &kp BSPC
                 &kp TAB    &kp N1      &kp N2     &kp N3    &kp N4     &kp N5                                                                      &kp N6    &kp N7    &kp N8       &kp N9    &kp N0     &kp BSLH
                 &kp ESC    &kp UNDERS  &kp MINUS  &kp PLUS  &kp EQUAL  &kp LPAR                                                                    &kp RPAR  &kp DQT   &kp QUOT     &kp BSPC  &kp COLON  &kp RET
                 &kp LSHFT  &none    &none   &kp LESS  &kp LBKT   &kp RBKT    &kp LALT  &kp LGUI    &kp PG_UP  &kp PG_DN  &kp RCTRL  &kp RALT &kp RBKT  &kp RBRC  &kp GREATER  &kp DOT    &kp FSLH  &kp RSHFT
-                &none   &none    &none   &none  &none               &kp LCTRL &none &kp BSPC   &kp RCTRL  &kp SPACE  &mo L3              &none     &none        &none     &none      &none
+                &none      &none    &none   &none  &none               &kp LCTRL &none &kp BSPC   &kp RCTRL  &kp SPACE  &mo L3              &none     &none        &none     &none      &none
             >;
         };
 
