@@ -21,30 +21,6 @@
 
 / {
     behaviors {
-        l1: l1 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo l1>;
-        };
-
-        l2: l2 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_2";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo l2>;
-        };
-
-        l3: l3 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_3";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo l3>;
-        };
-
         magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "MAGIC_HOLD_TAP";
@@ -138,7 +114,7 @@
                 &kp TAB    &kp N1      &kp N2     &kp N3    &kp N4     &kp N5                                                                      &kp N6    &kp N7    &kp N8       &kp N9    &kp N0     &kp BSLH
                 &kp ESC    &kp UNDERS  &kp MINUS  &kp PLUS  &kp EQUAL  &kp LPAR                                                                    &kp RPAR  &kp DQT   &kp QUOT     &kp BSPC  &kp COLON  &kp RET
                 &kp LSHFT  &none       &none      &kp LESS  &kp LBKT   &kp RBKT    &kp LALT  &kp LGUI   &kp PG_UP  &kp PG_DN  &kp RCTRL  &kp RALT  &kp RBKT  &kp RBRC  &kp GREATER  &kp DOT    &kp FSLH  &kp RSHFT
-                &none      &none       &none      &none     &none                  &kp LCTRL &kp none   &kp BSPC   &kp RCTRL  &kp SPACE  &mo l3              &none     &none        &none     &none      &none
+                &none      &none       &none      &none     &none                  &kp LCTRL &kp none   &kp BSPC   &kp RCTRL  &kp SPACE  &mo L3              &none     &none        &none     &none      &none
             >;
         };
 
